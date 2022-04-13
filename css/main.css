@@ -1,0 +1,287 @@
+/*reset css*/
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* estilos generales */
+
+nav{
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #59736e;
+    display: inline-block;
+
+    
+}
+
+.imgPortada{
+    background-image:url('../img/cerlago.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed ;
+    background-size:cover;
+    width: 100%;
+    height: 100%;
+   
+    
+}
+
+.tituloIndex{
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    font-weight: bolder;
+    font-family: 'Bebas Neue',cursive;
+
+
+
+}
+
+.imgIndex{
+    height: 10vh;
+    width: 10vh;
+}
+
+header nav ul{
+    list-style: none
+}
+
+.bottonIndex {
+    display: flex;
+    text-decoration: none;
+    margin: 0.5 rem;
+    padding: 0.5 rem;
+    color: black;
+    background-color:#a8a88f ;
+    font-size: 26px;
+    position: relative;
+    left: 720px;
+    
+}
+
+header li{
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+}
+
+.subtIndex{
+    font-size:30px;
+    text-align: left;
+    position: relative;
+    left:25px;
+    top: 30px;
+    font-family: 'Bebas Neue', cursive;
+   
+}
+
+.parrafoIndex{
+    width: 600px;
+    height: 250px;
+    color:black;
+    background-color: darkgrey;
+    text-align: left;
+    position: relative;
+    left: 25px;
+    top:40px
+}
+
+.historia{
+    position:relative;
+    left: 740px;
+    top: -250px;
+    height: 85vh;
+    width: 85vh
+}
+
+.linkIndex{
+    text-align: right;
+    position:relative;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    left: 970px;
+    top:-256px
+  
+}
+
+.linkF{
+    text-decoration: none;
+    color: black;
+}
+
+footer{
+    background-color: #abb2b9;
+    text-align: center;
+    font-size: 16px;
+
+}
+
+.redes{
+    background-position: left;
+}
+
+/*  propiedades sobre nosotros*/
+
+body{
+    background-color:#43524f ;
+}
+
+.tiU{
+    color: rgb(104, 177, 104);
+    font-size: 30px;
+}
+
+.tiP{
+    display: grid;
+    grid-template-columns:auto;
+    position: relative;
+    width: 600px;
+    height: 250px;
+    right: -650px;
+    top: -500px
+
+}
+
+
+.cerL{
+    position: relative;
+    height: 80vh;
+    width: 80vh;
+    bottom: -40px;
+}
+
+.tiD{
+    color: rgb(172, 172, 243);
+    text-align: left;
+    position:relative
+}
+
+.tiT{
+    color: black
+}
+
+.tiC{
+    display: grid;
+    position: relative;
+    width: 600px;
+    height: -250px;
+    left: 30px;
+    top: -150px;
+}
+
+.cerM{
+    height: 70vh;
+    width: 90vh;
+    position: relative;
+    left: 650px;
+    top:-350px
+    
+}
+
+/*  propiedades sobre cerveza*/
+
+.padre{
+    margin: 1em;
+    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content:space-between;
+    position: relative;
+    border-radius: 20px;
+}
+
+.hijos{
+    margin: 1em;
+    padding: 1em;
+    
+}
+
+.fotos{
+    border-radius: 20px;
+}
+
+
+/*  propiedades sobre shop*/
+.shopP{
+    display: grid;
+    grid-template-areas: "imgV imgV" 
+                         "imgG imgG"
+                         "imgR imgR"
+                         ;
+    column-gap: 10px;
+    row-gap: 30px;
+    justify-content: center;
+
+}
+
+ .imgU{
+    height: 30vh;
+    width: 30vh
+ }
+
+ .imgT{
+    height: 30vh;
+    width: 30vh
+ }
+
+.imgC{
+    height: 30vh;
+    width: 30vh
+}
+
+/*  propiedades sobre contacto*/
+
+    .padr {
+        width: 100%;
+        height: 100%;
+        margin: 10px auto;
+        font-family: quicksand;
+        color: white;
+        background-color: whitesmoke;
+        display: grid;
+        grid-template-columns: repeat(1, 1 fr);
+        grid-template-rows: repeat(2, auto);
+        gap: 10px;
+        grid-template-areas:
+            "gradientes"
+            "footer";
+        box-sizing: border-box;
+        margin: 10px;
+        font-family: quicksand;
+        color: black;
+    }
+
+  
+
+    .inputtext{
+         padding: 0;
+         margin: 0;
+         box-sizing: border-box;
+         display: block;
+         -webkit-text-size-adjust: 100%;
+         -webkit-tap-highlight-color: transparent;
+         color: #000;
+         font-family: Arial, Helvetica, sans-serif;
+         font-weight: 400px;
+         font-size: 16px;
+         font-size: 1rem;
+         line-height: 1.42857;
+        }   
+
+        /*media queries*/
+        @media only screen and(min-widht: 360px){
+            body{
+                background-color: #d67f1b;
+            }
+        }
+
+    
