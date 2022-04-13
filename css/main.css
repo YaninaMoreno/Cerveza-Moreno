@@ -63,6 +63,7 @@ header nav ul{
     font-size: 26px;
     position: relative;
     left: 720px;
+    box-shadow: 2px 3px;
     
 }
 
@@ -258,7 +259,15 @@ body{
         margin: 10px;
         font-family: quicksand;
         color: black;
-    }
+        }
+
+        .padr .gradientes{
+            background-image: radial-gradient(#517947, #3f771f);
+            grid-area: gradientes;
+            padding: 0;
+            margin: 0
+        }
+    
 
   
 
